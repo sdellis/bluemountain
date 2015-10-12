@@ -1,0 +1,380 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Blue Mountain Archive - A Repository of Modernist Periodicals</title>
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>   
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>        
+        
+        <link href="favicon.ico" rel="shortcut icon" />
+        <link rel="apple-touch-icon" href="examples/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="examples/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="examples/images/apple-touch-icon-114x114.png" />
+        <base href="http://bluemountain.princeton.edu/" />
+
+        <style type="text/css">
+            /*    
+          .form-control input {
+            width: 200px;
+            size: 200px;
+          }
+    */
+            .btn-group-vertical {
+                width: 100%;
+            }
+            
+            .dropdown-menu {
+                width: 100%;
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">The Blue Mountain Archive</a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    
+                  <li class="active"><a href="#">Periodicals</a></li>
+                  
+                  <li><a href="#">Names</a></li>
+                  
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                </form>
+                
+
+              </div><!-- /.navbar-collapse -->
+              
+            </div><!-- /.container-fluid -->
+          </nav>
+
+          <div class="container">
+            <div class="row">
+              <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Periodicals</a></li>
+                <li><a href="#">Broom</a></li>
+                <li class="active">Issues</li>
+              </ol>    
+            </div>
+            <div class="row">
+
+                    <div class="page-header" style="margin-top:-20px;">                        
+                        <h1>Broom <small>Issues</small></h1>
+                        <form style="margin-top:-40px;" class="navbar-form navbar-right" role="filter">    
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-warning"><span class="glyphicon glyphicon-sort-by-attributes"></span></button>
+                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-sort-by-attributes-alt"></span></button>
+                          </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-th-large"></span></button>
+                            <button type="button" class="btn btn-warning"><span class="glyphicon glyphicon-th"></span></button>
+                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-th-list"></span></button>
+                          </div>
+                        
+                         
+                        </form>
+                    </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Group By</h3>
+                    <form>
+                        <select>
+                            <option>Year</option>
+                            <option>Place of Publication</option>
+                            <option>Volume</option>
+                            <option>Editors</option>
+                        </select>
+                    </form>
+                    <hr/>
+                    <h3>Filter By</h3>
+                        <span class="small">First option:</span>
+                        <div class="btn-group-vertical">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="text-align: left;">
+                                Contributors
+                                <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Dropdown link</a></li>
+                                <li><a href="#">Dropdown link</a></li>
+                              </ul>
+                            </div>
+                            
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="text-align: left;">
+                                Size/Format
+                                <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Dropdown link</a></li>
+                                <li><a href="#">Dropdown link</a></li>
+                              </ul>
+                            </div>
+                          
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="text-align: left;">
+                                Location
+                                <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Dropdown link</a></li>
+                                <li><a href="#">Dropdown link</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        
+                        <hr/>
+                        <span class="small">Second option:</span>
+                        
+                        <div class="bs-example">
+                            <div class="panel-group" id="accordion">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Contributors</a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li class="active"><a href="#">Alfred Kreymborg</a></li>
+                                    <li><a href="#">Harold Loeb</a></li>
+                                    <li><a href="#">Giuseppe Prezzolini</a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Size/Format</a>
+                              </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li class="active"><a href="#">33 cm x 20 cm</a></li>
+                                    <li><a href="#">45 cm x 25 cm</a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Location</a>
+                              </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li class="active"><a href="#">Rome, Italy</a></li>
+                                    <li><a href="#">London, England</a></li>
+                                    <li><a href="#">Paris, France</a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+
+                </div>
+                <div class="col-md-9">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h3 class="panel-title">1921</h3>
+                        </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">1922</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                        <img data-src="holder.js/285x285" alt="300x200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 100%;">
+                                        <div class="caption">
+                                          <h3>Vol #, Issue #</h3>
+                                          
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+           
+  
+            <div class="row">
+                <div class="col-lg-12">
+                <br><br>
+                  <p class="pull-right"><a href="http://library.princeton.edu/projects/bluemountain">Blue Mountain Project</a> &nbsp; &copy; 2014.</p>
+                <br><br>
+            </div>
+    </div>
+</div>
+
